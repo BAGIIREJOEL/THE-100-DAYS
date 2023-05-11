@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+}
+.brick{
+    cursor: pointer;
+    background: #1d1d1d;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    box-shadow: 0 0 2px #000;
+    transition: 10s ease-out;
+}
+.brick:hover{
+    transition-duration: 0s;
+    border-radius: 50%;
+}
